@@ -1,0 +1,1 @@
+//Create carousel of all objects
