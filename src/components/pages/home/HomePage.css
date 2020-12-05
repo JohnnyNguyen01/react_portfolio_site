@@ -1,0 +1,47 @@
+* {
+    font-family: Poppins;
+}
+
+
+/* Center the container */
+
+.parent-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    float: left;
+}
+
+.typewriter {
+    font-size: xx-large;
+    margin-left: 4px;
+    margin-top: 5px;
+}
+
+.name-title {
+    font-weight: 700;
+    color: #1E90FF;
+}
+
+.title-div {
+    float: right;
+}
+
+.button {
+    font-weight: 200;
+}
+
+p {
+    margin-top: 1rem;
+    font-size: large;
+    font-weight: lighter;
+    margin-left: 4px;
+    padding-bottom: 5px;
+}

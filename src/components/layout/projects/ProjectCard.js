@@ -26,11 +26,11 @@ const ProjectCard = ({
 
   return (
     <Fragment>
-      <Card style={{ width: "18rem" }} className="mg-l10 card">
+      <Card style={{ width: "18rem" }} className="mg-l10 mg-t10 card">
         <Card.Body>
           <Card.Title>{title}</Card.Title>
           <Card.Subtitle className="mb-2 text-muted"> {subtitle}</Card.Subtitle>
-          <Card.Text>{text}</Card.Text>
+          <Card.Text className='card-text'>{text}</Card.Text>
           {badges != null ? mapBadges() : null}
         </Card.Body>
         <Button block href={projectLink} className="mg-t10 button">
